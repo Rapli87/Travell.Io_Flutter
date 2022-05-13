@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:travelapp/components/custom_surfix_icon.dart';
-import 'package:travelapp/components/default_button.dart';
-import 'package:travelapp/components/form_error.dart';
-import 'package:travelapp/screens/complete_profile/complete_profile_screen.dart';
+import 'package:travelio/components/custom_surfix_icon.dart';
+import 'package:travelio/components/default_button.dart';
+import 'package:travelio/components/form_error.dart';
+import 'package:travelio/screens/complete_profile/complete_profile_screen.dart';
 
 import '../../../constants.dart';
 import '../../../size_config.dart';

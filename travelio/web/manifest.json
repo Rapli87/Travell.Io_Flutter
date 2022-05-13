@@ -1,6 +1,6 @@
 {
-    "name": "travelio",
-    "short_name": "travelio",
+    "name": "travelapp",
+    "short_name": "travelapp",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

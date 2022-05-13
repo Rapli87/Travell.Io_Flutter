@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:travelapp/components/product_card.dart';
-import 'package:travelapp/models/Product.dart';
+import 'package:travelio/components/product_card.dart';
+import 'package:travelio/models/Product.dart';
 
 import '../../../size_config.dart';
 import 'section_title.dart';

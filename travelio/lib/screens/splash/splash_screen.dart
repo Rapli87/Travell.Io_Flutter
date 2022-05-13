@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:travelapp/screens/splash/components/body.dart';
-import 'package:travelapp/size_config.dart';
+import 'package:travelio/screens/splash/components/body.dart';
+import 'package:travelio/size_config.dart';
 
 class SplashScreen extends StatelessWidget {
   static String routeName = "/splash";

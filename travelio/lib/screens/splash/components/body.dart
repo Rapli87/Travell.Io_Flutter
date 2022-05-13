@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:travelapp/constants.dart';
-import 'package:travelapp/screens/sign_in/sign_in_screen.dart';
-import 'package:travelapp/size_config.dart';
+import 'package:travelio/constants.dart';
+import 'package:travelio/screens/sign_in/sign_in_screen.dart';
+import 'package:travelio/size_config.dart';
 
 // This is the best practice
 import '../components/splash_content.dart';

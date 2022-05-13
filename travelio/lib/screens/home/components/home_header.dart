@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:travelapp/screens/cart/cart_screen.dart';
+import 'package:travelio/screens/cart/cart_screen.dart';
 
 import '../../../size_config.dart';
 import 'icon_btn_with_counter.dart';

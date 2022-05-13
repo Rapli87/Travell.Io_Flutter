@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:travelapp/components/no_account_text.dart';
-import 'package:travelapp/components/socal_card.dart';
+import 'package:travelio/components/no_account_text.dart';
+import 'package:travelio/components/socal_card.dart';
 import '../../../size_config.dart';
 import 'sign_form.dart';
 

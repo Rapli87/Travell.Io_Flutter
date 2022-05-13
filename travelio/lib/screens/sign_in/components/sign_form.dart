@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:travelapp/components/custom_surfix_icon.dart';
-import 'package:travelapp/components/form_error.dart';
-import 'package:travelapp/helper/keyboard.dart';
-import 'package:travelapp/screens/forgot_password/forgot_password_screen.dart';
-import 'package:travelapp/screens/login_success/login_success_screen.dart';
+import 'package:travelio/components/custom_surfix_icon.dart';
+import 'package:travelio/components/form_error.dart';
+import 'package:travelio/helper/keyboard.dart';
+import 'package:travelio/screens/forgot_password/forgot_password_screen.dart';
+import 'package:travelio/screens/login_success/login_success_screen.dart';
 
 import '../../../components/default_button.dart';
 import '../../../constants.dart';

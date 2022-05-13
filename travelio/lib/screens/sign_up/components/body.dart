@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:travelapp/components/socal_card.dart';
-import 'package:travelapp/constants.dart';
-import 'package:travelapp/size_config.dart';
+import 'package:travelio/components/socal_card.dart';
+import 'package:travelio/constants.dart';
+import 'package:travelio/size_config.dart';
 
 import 'sign_up_form.dart';
 
