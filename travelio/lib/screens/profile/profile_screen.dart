@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:travelapp/components/coustom_bottom_nav_bar.dart';
-import 'package:travelapp/enums.dart';
+import 'package:travelio/components/coustom_bottom_nav_bar.dart';
+import 'package:travelio/enums.dart';
 
 import 'components/body.dart';
 
