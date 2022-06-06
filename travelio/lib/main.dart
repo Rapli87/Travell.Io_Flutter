@@ -1,25 +1,25 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:travelio/routes.dart';
-import 'package:travelio/screens/profile/profile_screen.dart';
-import 'package:travelio/screens/splash/splash_screen.dart';
-import 'package:travelio/theme.dart';
+import 'package:flutter_application_2/screens/home_screen.dart';
+import 'package:flutter_application_2/screens/onBoarding.dart';
 
-void main() {
-  runApp(MyApp());
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp();
+  runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
+  const MyApp({Key? key}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
       debugShowCheckedModeBanner: false,
-      title: 'Flutter Demo',
-      theme: theme(),
-      // home: SplashScreen(),
-      // We use routeName so that we dont need to remember the name
-      initialRoute: SplashScreen.routeName,
-      routes: routes,
+      home: const OnboardingScreen(),
     );
   }
 }
