@@ -30,7 +30,7 @@ class _RegisterScreenState extends State<RegisterScreen> {
         body: Container(
             decoration: BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('assets/30189.jpg'),
+                image: AssetImage('assets/Untitled-2.png'),
                 fit: BoxFit.cover,
               ),
             ),

@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_2/models/size.dart';
-import 'package:flutter_application_2/screens/home_screen.dart';
-import 'package:flutter_application_2/screens/onBoarding.dart';
-import 'package:flutter_application_2/theme.dart';
-import 'package:flutter_application_2/widgets/size_card.dart';
+import 'package:travel_io/models/size.dart';
+import 'package:travel_io/screens/home_screen.dart';
+import 'package:travel_io/screens/onBoarding.dart';
+import 'package:travel_io/theme.dart';
+import 'package:travel_io/widgets/size_card.dart';
 import 'package:intl/intl.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -118,27 +118,27 @@ class _DetailScreen extends State<DetailScreen> {
               width: MediaQuery.of(context).size.width,
               fit: BoxFit.cover,
             ),
-            Padding(
-              padding: const EdgeInsets.all(20),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  InkWell(
-                    onTap: () {
-                      Navigator.pushReplacement(
-                          context,
-                          MaterialPageRoute(
-                              builder: (_) => OnboardingScreen()));
-                    }, //to login screen. We will update later
-                    child: Image.asset('assets/btn_back.png', width: 40),
-                  ),
-                  InkWell(
-                    onTap: () {},
-                    child: Image.asset('assets/btn_share.png', width: 40),
-                  ),
-                ],
-              ),
-            ),
+            // Padding(
+            //   padding: const EdgeInsets.all(20),
+            //   child: Row(
+            //     mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            //     children: [
+            //       InkWell(
+            //         onTap: () {
+            //           Navigator.pushReplacement(
+            //               context,
+            //               MaterialPageRoute(
+            //                   builder: (_) => OnboardingScreen()));
+            //         }, //to login screen. We will update later
+            //         child: Image.asset('assets/btn_back.png', width: 40),
+            //       ),
+            //       InkWell(
+            //         onTap: () {},
+            //         child: Image.asset('assets/btn_share.png', width: 40),
+            //       ),
+            //     ],
+            //   ),
+            // ),
             ListView(
               children: [
                 const SizedBox(height: 264),
@@ -160,10 +160,10 @@ class _DetailScreen extends State<DetailScreen> {
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Image.asset(
-                              'assets/promo.png',
-                              width: 60,
-                            ),
+                            // Image.asset(
+                            //   'assets/promo.png',
+                            //   width: 60,
+                            // ),
                             const SizedBox(height: 8),
                             Row(
                               children: [
@@ -235,7 +235,7 @@ class _DetailScreen extends State<DetailScreen> {
                             ),
                             const SizedBox(height: 18),
                             Text(
-                              'Pilih Ukuran',
+                              'Keuntungan:',
                               style: poppinsTextStyle.copyWith(
                                 fontSize: 14,
                                 fontWeight: FontWeight.w500,
@@ -250,7 +250,7 @@ class _DetailScreen extends State<DetailScreen> {
                                   child: SizeCard(
                                     Size(
                                       id: 1,
-                                      name: 'Mini',
+                                      name: 'Dokumentasi Perjalanan',
                                       isActive: isMini,
                                     ),
                                   ),
@@ -260,31 +260,31 @@ class _DetailScreen extends State<DetailScreen> {
                                   child: SizeCard(
                                     Size(
                                       id: 2,
-                                      name: 'Sedang',
+                                      name: 'Menyenangkan',
                                       isActive: isSedang,
                                     ),
                                   ),
                                 ),
-                                const SizedBox(width: 12),
-                                InkWell(
-                                  child: SizeCard(
-                                    Size(
-                                      id: 3,
-                                      name: 'Besar',
-                                      isActive: isBesar,
-                                    ),
-                                  ),
-                                ),
-                                const SizedBox(width: 12),
-                                InkWell(
-                                  child: SizeCard(
-                                    Size(
-                                      id: 4,
-                                      name: 'Super Besar',
-                                      isActive: isSuperBesar,
-                                    ),
-                                  ),
-                                ),
+                                // const SizedBox(width: 12),
+                                // InkWell(
+                                //   child: SizeCard(
+                                //     Size(
+                                //       id: 3,
+                                //       name: 'Besar',
+                                //       isActive: isBesar,
+                                //     ),
+                                //   ),
+                                // ),
+                                // const SizedBox(width: 12),
+                                // InkWell(
+                                //   child: SizeCard(
+                                //     Size(
+                                //       id: 4,
+                                //       name: 'Super Besar',
+                                //       isActive: isSuperBesar,
+                                //     ),
+                                //   ),
+                                // ),
                               ],
                             ),
                             const SizedBox(height: 18),
@@ -311,7 +311,7 @@ class _DetailScreen extends State<DetailScreen> {
                             ),
                             const SizedBox(height: 18),
                             Text(
-                              'Lokasi TRavell.Io',
+                              'Lokasi Travell.Io',
                               style: poppinsTextStyle.copyWith(
                                 fontSize: 14,
                                 fontWeight: FontWeight.w500,
@@ -371,7 +371,7 @@ class _DetailScreen extends State<DetailScreen> {
                                 highlightElevation: 0,
                                 onPressed: () {
                                   launchUrl(
-                                      'https://wa.me/6282231159862?text=Saya%20Pesan%20Paket%20$_name%20$i%20(Rp.$_pricePromo)');
+                                      'https://wa.me/6285156264563?text=Saya%20Pesan%20Paket%20$_name%20$i%20(Rp.$_pricePromo)');
                                 },
                                 color: yellowColor,
                                 child: Text(

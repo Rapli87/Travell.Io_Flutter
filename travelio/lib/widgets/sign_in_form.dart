@@ -5,6 +5,7 @@ import 'package:travel_io/screens/home_screen.dart';
 import 'package:travel_io/screens/register_screen.dart';
 import 'package:travel_io/utils/authentication.dart';
 import 'package:travel_io/utils/validator.dart';
+
 import 'custom_form_field.dart';
 
 class SignInForm extends StatefulWidget {
@@ -127,7 +128,7 @@ class _SignInFormState extends State<SignInForm> {
                       child: Padding(
                         padding: EdgeInsets.only(top: 16.0, bottom: 16.0),
                         child: Text(
-                          'Login',
+                          'LOGIN',
                           style: TextStyle(
                             fontSize: 24,
                             fontWeight: FontWeight.bold,
@@ -151,7 +152,7 @@ class _SignInFormState extends State<SignInForm> {
             child: Text(
               'Don\'t have an account? Sign up',
               style: TextStyle(
-                color: CustomColors.googleBackground,
+                color: CustomColors.firebaseGrey,
                 letterSpacing: 0.5,
               ),
             ),

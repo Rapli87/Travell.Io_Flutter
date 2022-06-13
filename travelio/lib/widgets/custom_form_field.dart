@@ -59,7 +59,7 @@ class CustomFormField extends StatelessWidget {
           borderRadius: BorderRadius.circular(8.0),
           borderSide: BorderSide(
             color: CustomColors.googleBackground,
-            width: 2,
+            width: 4,
           ),
         ),
         enabledBorder: OutlineInputBorder(
@@ -72,14 +72,14 @@ class CustomFormField extends StatelessWidget {
           borderRadius: BorderRadius.circular(8.0),
           borderSide: BorderSide(
             color: Colors.redAccent,
-            width: 2,
+            width: 4,
           ),
         ),
         focusedErrorBorder: OutlineInputBorder(
           borderRadius: BorderRadius.circular(8.0),
           borderSide: BorderSide(
             color: Colors.redAccent,
-            width: 2,
+            width: 4,
           ),
         ),
       ),

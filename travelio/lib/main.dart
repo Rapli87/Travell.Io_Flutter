@@ -1,7 +1,8 @@
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_2/screens/home_screen.dart';
-import 'package:flutter_application_2/screens/onBoarding.dart';
+import 'package:travel_io/screens/home_screen.dart';
+import 'package:travel_io/screens/onBoarding.dart';
+import 'package:travel_io/screens/splash.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -19,7 +20,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
       ),
       debugShowCheckedModeBanner: false,
-      home: const OnboardingScreen(),
+      home: const Welcome(),
     );
   }
 }
