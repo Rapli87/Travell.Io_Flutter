@@ -371,7 +371,7 @@ class _DetailScreen extends State<DetailScreen> {
                                 highlightElevation: 0,
                                 onPressed: () {
                                   launchUrl(
-                                      'https://wa.me/6285156264563?text=Saya%20Pesan%20Paket%20$_name%20$i%20Orang%20(Rp.$_pricePromo)');
+                                      'https://wa.me/6285156264563?text=Saya%20Pesan%20Paket%20$_name%20$i%20Hari%20Mulai Tanggal ... %20Sampai dengan tanggal ...%20(Rp.$_pricePromo)');
                                 },
                                 color: yellowColor,
                                 child: Text(
