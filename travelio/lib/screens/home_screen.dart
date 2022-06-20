@@ -89,57 +89,6 @@ class HomeScreen extends StatelessWidget {
                       );
                     }
                   }),
-              // MenuCard(
-              //   Menu(
-              //     id: 1,
-              //     image: 'assets/pic1.png',
-              //     name: 'Burger Regular',
-              //     price: 12000,
-              //     pricePromo: 8000,
-              //     note:
-              //         'Pembelian diatas 5  item bonus satu burger promo berlaku hanya pengiriman radius 2 KM setiap pembelian mendapat 1 kupon burger 10 kupon burger bisa ditukar dengan 1 burger',
-              //     isPromo: true,
-              //   ),
-              // ),
-              // const SizedBox(height: 20),
-              // MenuCard(
-              //   Menu(
-              //     id: 2,
-              //     image: 'assets/pic2.png',
-              //     name: 'Burger Paket 1',
-              //     price: 28000,
-              //     pricePromo: 22000,
-              //     note:
-              //         'Pembelian diatas 5  item bonus satu burger promo berlaku hanya pengiriman radius 2 KM setiap pembelian mendapat 1 kupon burger 10 kupon burger bisa ditukar dengan 1 burger',
-              //     isPromo: false,
-              //   ),
-              // ),
-              // const SizedBox(height: 20),
-              // MenuCard(
-              //   Menu(
-              //     id: 3,
-              //     image: 'assets/pic3.png',
-              //     name: 'Burger Paket 2',
-              //     price: 25000,
-              //     pricePromo: 18000,
-              //     note:
-              //         'Pembelian diatas 5  item bonus satu burger promo berlaku hanya pengiriman radius 2 KM setiap pembelian mendapat 1 kupon burger 10 kupon burger bisa ditukar dengan 1 burger',
-              //     isPromo: false,
-              //   ),
-              // ),
-              // const SizedBox(height: 20),
-              // MenuCard(
-              //   Menu(
-              //     id: 4,
-              //     image: 'assets/pic4.png',
-              //     name: 'Burger Paket 3',
-              //     price: 22000,
-              //     pricePromo: 16000,
-              //     note:
-              //         'Pembelian diatas 5  item bonus satu burger promo berlaku hanya pengiriman radius 2 KM setiap pembelian mendapat 1 kupon burger 10 kupon burger bisa ditukar dengan 1 burger',
-              //     isPromo: false,
-              //   ),
-              // ),
               const SizedBox(height: 20),
             ],
           ),
