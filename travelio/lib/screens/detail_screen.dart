@@ -265,26 +265,6 @@ class _DetailScreen extends State<DetailScreen> {
                                     ),
                                   ),
                                 ),
-                                // const SizedBox(width: 12),
-                                // InkWell(
-                                //   child: SizeCard(
-                                //     Size(
-                                //       id: 3,
-                                //       name: 'Besar',
-                                //       isActive: isBesar,
-                                //     ),
-                                //   ),
-                                // ),
-                                // const SizedBox(width: 12),
-                                // InkWell(
-                                //   child: SizeCard(
-                                //     Size(
-                                //       id: 4,
-                                //       name: 'Super Besar',
-                                //       isActive: isSuperBesar,
-                                //     ),
-                                //   ),
-                                // ),
                               ],
                             ),
                             const SizedBox(height: 18),

@@ -6,7 +6,14 @@ import 'package:travel_io/screens/splash.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
+  await Firebase.initializeApp(
+    options: FirebaseOptions(
+      apiKey: 'AIzaSyAa8a1i3PtWSC4DkZM9Zcw72o2eNmgJPXo',
+      appId: '1:990306926867:android:9ea975401815a9b5445ae6',
+      messagingSenderId: '990306926867',
+      projectId: 'travelio-61521',
+    ),
+  );
   runApp(const MyApp());
 }
 
